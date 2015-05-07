@@ -1,0 +1,213 @@
+body
+{
+  margin:10px;
+  padding:0;
+  background-color: red;
+}
+
+#wrapper
+{
+  font-family:arial, verdana;
+  font-size:10pt;
+  width:auto;
+  max-width:760px;
+  margin:0 auto;
+}
+
+h1
+{
+  margin:10px 0;
+  padding:0;
+}
+
+form,table,tr,td
+{
+  border:0;
+  margin:0;
+  padding:0;
+}
+
+#formwidget
+{
+  font-family:arial, verdana;
+  font-size:10pt;
+  border:0 solid #000;
+  width:auto;
+  text-align:left;
+  white-space:nowrap;
+  margin:0 auto;
+  padding:0;
+}
+
+#formwidget .info
+{
+  border-right:0 solid #CCC;
+  border-bottom:1px solid #CCC;
+  border-left:0 solid #CCC;
+  border-top:0 solid #CCC;
+  margin:10px 0;
+  padding:0;
+}
+
+#formwidget fieldset legend
+{
+  font-size:1.1em;
+  font-weight:700;
+  display:none;
+}
+
+#formwidget .order
+{
+  border-right:0 solid #CCC;
+  border-bottom:1px solid #CCC;
+  border-left:0 solid #CCC;
+  border-top:0 solid #CCC;
+  margin:0 0 10px;
+  padding:0;
+}
+
+#formwidget .totals
+{
+  text-align:right;
+  width:110px;
+  margin:0 20px 0 0;
+}
+
+#formwidget .bold
+{
+  font-weight:700;
+}
+
+#formwidget .right
+{
+  margin-left:auto;
+}
+
+#formwidget .row
+{
+  margin:0;
+  padding:2px 0;
+}
+
+#formwidget .col1
+{
+  width:15em;
+  text-align:right;
+}
+
+#formwidget .col2
+{
+  text-align:left;
+  padding:0;
+}
+
+#formwidget .description
+{
+  font-size:.8em;
+  padding:0;
+}
+
+#formwidget .labels
+{
+  font-size:1em;
+  font-weight:700;
+  text-align:right;
+  vertical-align:middle;
+  padding:0 10px 0 0;
+}
+
+#formwidget .fields
+{
+  vertical-align:middle;
+  padding:0 10px 0 0;
+}
+
+#formwidget button
+{
+  background-color:#DDD;
+}
+
+#formwidget .input4
+{
+  width:3.5em;
+}
+
+#formwidget .error
+{
+  color:red;
+  font-size:.8em;
+  background-image:url(../images/error_cross.gif);
+  background-repeat:no-repeat;
+  vertical-align:middle;
+  margin:0;
+  padding:1px 0 2px 17px;
+}
+
+#formwidget .approved
+{
+  font-weight:700;
+  background-image:url(../images/tick.png);
+  background-repeat:no-repeat;
+  margin:0;
+  padding:4px 0 4px 30px;
+}
+
+#formwidget .declined
+{
+  font-weight:700;
+  background-image:url(../images/cross.png);
+  background-repeat:no-repeat;
+  margin:0;
+  padding:4px 0 4px 30px;
+}
+
+#formwidget .heading
+{
+  font-size:1.1em;
+  font-weight:700;
+  border-bottom:1px solid #CCC;
+  margin:0;
+  padding:5px 0 5px 10px;
+}
+
+#formwidget .warning
+{
+  color:red;
+  font-size:.8em;
+  font-weight:700;
+  background-image:url(../images/warning.gif);
+  background-repeat:no-repeat;
+  margin:0;
+  padding:4px 0 4px 18px;
+}
+
+#formwidget .controls
+{
+  text-align:right;
+}
+
+#formwidget .cvvlink img
+{
+  border:0;
+  vertical-align:middle;
+  margin:0 0 4px;
+  padding:0;
+}
+
+#footer
+{
+  margin:4px 0 0;
+}
+
+#whatiscvv
+{
+  font-family:arial, verdana;
+  font-size:10pt;
+  width:300px;
+  text-align:left;
+}
+
+#whatiscvv .center
+{
+  text-align:center;
+}
